@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/src/index.js",
+    "dev": "tsc --watch",
+    "wnr": "tsc -w & nodemon -q -w dist dist/src/index.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "typescript": "^5.8.2"
+  }
+}
